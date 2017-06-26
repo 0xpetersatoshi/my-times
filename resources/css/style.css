@@ -2,3 +2,49 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid black;
+  height: 80px;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo img {
+  height: 60px;
+  width: 70px;
+  margin-right: 12px;
+}
+
+.logo span {
+  color: MediumAquaMarine;
+}
+
+div.logo {
+  align-items: center;
+}
+
+a {
+  color: black;
+}
