@@ -26,9 +26,6 @@ nav span {
   padding: 20px 10px;
 }
 
-div {
-  border: 1px solid black;
-}
 
 .logo {
   display: flex;
@@ -107,4 +104,21 @@ a {
   font-size: 17px;
   font-family: Georgia;
   color: black;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.stories .text-content {
+  height: 250px;
+}
+
+.narrative {
+  margin-top: 16px;
 }
