@@ -101,7 +101,6 @@ a {
 }
 
 .story {
-  font-size: 17px;
   font-family: Georgia;
   color: black;
   width: 300px;
@@ -121,4 +120,12 @@ a {
 
 .narrative {
   margin-top: 16px;
+}
+
+p {
+  font-size: 17px;
+}
+
+h2 {
+  font-size: 30px;
 }
