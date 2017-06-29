@@ -26,6 +26,10 @@ nav span {
   padding: 20px 10px;
 }
 
+div {
+  border: 1px solid black;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -43,10 +47,23 @@ nav span {
   color: MediumAquaMarine;
 }
 
-div.logo {
-  align-items: center;
-}
-
 a {
   color: black;
+}
+
+.container {
+  padding-top: 100px;
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
