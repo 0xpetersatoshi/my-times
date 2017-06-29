@@ -13,6 +13,8 @@ header {
   width: 100%;
   border-bottom: 1px solid black;
   height: 80px;
+  z-index: 1;
+  background: white;
 }
 
 header nav {
