@@ -49,9 +49,10 @@ a {
 }
 
 .container {
-  padding-top: 100px;
   display: flex;
-  margin: 0 91px 78px 91px;
+  justify-content: center;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
 }
 
 .column.large {
@@ -118,10 +119,6 @@ a {
   display: flex;
   justify-content: space-between;
   margin-top: 17px;
-}
-
-.stories .text-content {
-  height: 250px;
 }
 
 .narrative {
