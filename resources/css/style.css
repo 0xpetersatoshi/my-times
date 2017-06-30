@@ -76,6 +76,9 @@ a {
   text-align: left;
   font-size: 40px;
 }
+.lead-story .image-content span {
+  margin-left: 20px;
+}
 
 .image-content {
   display: flex;
@@ -86,14 +89,17 @@ a {
   color: white;
   font-size: 30px;
   text-align: center;
+  align-items: center;
 }
 
 .image-content.earth {
   background-image: url(../images/img-story-2.png);
+  margin-top: 40px;
 }
 
 .image-content.camera {
   background-image: url(../images/img-story-3.png);
+  margin-top: 40px;
 }
 
 .image-content.cat {
@@ -124,6 +130,10 @@ a {
 
 p {
   font-size: 17px;
+}
+
+h2 {
+  font-size: 30px;
 }
 
 .news-bites {
